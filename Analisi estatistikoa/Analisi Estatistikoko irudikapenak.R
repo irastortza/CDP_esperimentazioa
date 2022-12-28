@@ -1,9 +1,9 @@
-setwd("/home/gorria/Dokumentuak/AdimenArtifiziala/BH")
+setwd("JARRI ZURE BIDE_IZENA")
 library(RVCompare)
 library(ggplot2)
 
-IO<-read.csv(file="./Onak/EDAbermearekinNAHASTUTA.csv",header=FALSE,sep=",",stringsAsFactors=FALSE)
-IO2<-read.csv(file="./Onak/SUBSIMBermearekinNAHASTUTA.csv",header=FALSE,sep=",",stringsAsFactors=FALSE)
+IO<-read.csv(file="JARRI FITXATEGIAREN BIDE IZENA",header=FALSE,sep=",",stringsAsFactors=FALSE)
+IO2<-read.csv(file="JARRI FITXATEGIAREN BIDE IZENA",header=FALSE,sep=",",stringsAsFactors=FALSE)
 
 #CSV bakoitzak hiru instantzien datuak ditu, horietako bakoitzaren datuekin matrize bana sortu
 instantzia1O = matrix(ncol=ncol(IO)-1,nrow=nrow(IO)/3)
