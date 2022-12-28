@@ -1,4 +1,4 @@
-# CDP_esperimentazioa
+# CDP esperimentazioa
 Bilaketa Heuristikoak ikasgaiko praktikaren ebazpena
 
 ## Egileak
